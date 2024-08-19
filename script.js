@@ -3,7 +3,7 @@ const listcontainer = document.getElementById("list-container");
 
 function addTask(){
    if(inputbox.value === ''){
-    alert("I Want to Go GOAT Movie");
+    alert("Warning!You should write something and click Add");
    }
    else{
     let li = document.createElement("li");
